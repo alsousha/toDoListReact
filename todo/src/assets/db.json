@@ -1,0 +1,148 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Покупки",
+      "colorId": 5
+    },
+    {
+      "id": 2,
+      "name": "Фронтенд",
+      "colorId": 4
+    },
+    {
+      "id": 5,
+      "name": "Фильмы и сериалы",
+      "colorId": 3
+    },
+    {
+      "id": 3,
+      "name": "Книги",
+      "colorId": 2
+    },
+    {
+      "id": 4,
+      "name": "Личное",
+      "colorId": 1
+    },
+    {
+      "name": "Eldar2",
+      "colorId": 5,
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "Изучить JavaScript"
+    },
+    {
+      "id": 2,
+      "listId": 2,
+      "text": "Изучить паттерны проектирования"
+    },
+    {
+      "id": 3,
+      "listId": 1,
+      "text": "ReactJS Hooks (useState, useReducer, useEffect и т.д.)"
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "Redux (redux-observable, redux-saga)"
+    },
+    {
+      "id": 5,
+      "listId": 5,
+      "text": "Redux (redux-observable, redux-saga)"
+    },
+    {
+      "listId": 3,
+      "text": "1864",
+      "id": 6
+    },
+    {
+      "listId": 4,
+      "text": "Test",
+      "id": 9
+    },
+    {
+      "listId": 3,
+      "text": "ersdfsf",
+      "id": 10
+    },
+    {
+      "listId": 2,
+      "text": "sdf",
+      "id": 11
+    },
+    {
+      "listId": 1,
+      "text": "wew",
+      "id": 12
+    },
+    {
+      "listId": 1,
+      "text": "tersgd",
+      "id": 13
+    },
+    {
+      "listId": 6,
+      "text": "sgsdgerretyert",
+      "id": 14
+    },
+    {
+      "listId": 6,
+      "text": "сделать уроки",
+      "id": 15
+    },
+    {
+      "listId": 6,
+      "text": "почитать книгу",
+      "id": 16
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}

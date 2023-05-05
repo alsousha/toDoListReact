@@ -1,0 +1,160 @@
+.tasks {
+	&:not(:last-of-type){
+		margin-bottom: 40px;
+	}
+  &__title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #64c4ed;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+
+    &:hover {
+      img {
+        opacity: 0.2;
+      }
+    }
+
+    img {
+      opacity: 0;
+      cursor: pointer;
+      margin-left: 15px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &__items {
+    margin-top: 10px;
+	
+
+    &-row {
+      display: flex;
+      align-items: center;
+	  margin-bottom: 15px;
+
+      input {
+        margin: 0 15px;
+        padding: 5px;
+        font-size: 16px;
+        width: 100%;
+		&:not(.active){
+			border: 0;
+		}
+      }
+	  
+	  &:hover .task__btns:not(.active) img{
+		opacity: 0.2;
+	  }
+	  .task__btns{
+		display: flex;
+		gap: 1rem;
+		transition: all 0.5s;
+		img{
+			height: 12px;
+			width: 12px;
+			cursor: pointer;
+			opacity: 1;
+			transition: all 0.5s;
+			&:hover{
+				transform: scale(1.04);
+				opacity: 0.8 !important;
+			}
+		}
+		
+		&:not(.active) img,
+		&.active img:not(:first-of-type){
+			opacity: 0;
+			
+		}
+	  }
+    }
+  }
+  h3{
+	font-size: 16px;
+	font-weight: 300;
+	color: #C9D1D3;
+	margin-top: 30px;
+  }
+
+  .checkbox {
+    input {
+      display: none;
+    }
+
+    svg {
+      transition: opacity 0.15s ease-in-out;
+      path {
+        stroke: #f2f2f2;
+      }
+    }
+
+    input:checked + label {
+      background-color: #4dd599;
+      border-color: #4dd599;
+
+      svg {
+        opacity: 1;
+        path {
+          stroke: #fff;
+        }
+      }
+    }
+
+    &:hover {
+      label {
+        background-color: #f2f2f2;
+        border-color: #f2f2f2;
+        svg {
+          opacity: 1;
+          path {
+            stroke: #b2b2b2;
+          }
+        }
+      }
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #e8e8e8;
+      border-radius: 30px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      transition: background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
+
+      svg {
+        opacity: 0;
+      }
+    }
+  }
+  .add_task{
+	margin-top: 10px;
+	color: #000;
+	opacity: 0.4;
+	cursor: pointer;
+	&:hover{
+		opacity: 1;
+	}
+	span{
+		margin-left: 10px;
+	}
+  }
+  .new_task{
+	margin-top: 10px;
+	input{
+		margin-bottom: 10px;
+	}
+	button{
+		margin-right: 10px;
+	}
+  }
+  
+}
